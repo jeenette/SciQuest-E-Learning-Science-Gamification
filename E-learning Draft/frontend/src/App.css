@@ -1,0 +1,189 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Login.css */
+
+body {
+  background-image: url('https://i.scdn.co/image/ab67616d00001e0243fdf0856d23128420dd1fbb');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background-color: #f3f3f3; 
+  padding: 20px;
+  width: 350px;
+  margin: 100px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 75%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #929292;
+  color: white;
+  text-align: center;
+}
+input::placeholder {
+  color: white;
+  text-align: center;
+  opacity: 1; 
+}
+
+.forgot-password {
+  color: #555;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.login-btn {
+  background-color: #929292;
+  color: black;
+  padding: 10px;
+  width: 50%;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+
+/*end*/
+/*register*/
+.register-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  width: 350px;
+  margin: 100px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+input, select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #929292;
+  color: white;
+  text-align: center;
+}
+.full-width {
+  width: calc(80%-5px);
+  margin-bottom: 10px;
+}
+.full{
+  width: 94%;
+  margin-bottom: 10px;
+}
+input::placeholder, select {
+  color: white;
+  opacity: 1;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.register-btn,
+.cancel-btn {
+  background-color: #929292;
+  color: black;
+  padding: 10px;
+  width: 45%;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
+/*end*/
