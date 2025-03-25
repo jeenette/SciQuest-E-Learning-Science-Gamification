@@ -44,8 +44,11 @@ Open your terminal (or in VSCode) and install the NestJS CLI globally:
 # Step 2: Create the Backend (NestJS)
 1. Create a NestJS project:
 *  nest new backend
+
+
 2. After setup, open the backend folder:
 *  cd backend
+
 3. Start the development server:
 *  npm run start:dev
 
@@ -55,12 +58,19 @@ If successful, you’ll see something like:
 # Step 3: Create the Frontend (React with Vite)
 1. In a new terminal (or split terminal), create the frontend:
 *  npm create vite@latest frontend --template react
+
 2. Go to the frontend folder:
 *  cd frontend
+
 3. Install dependencies:
 * npm install
 * npm install @tanstack/react-router
-4. Start the frontend:
+
+4. Install React Router
+Open your terminal and run:
+*  npm install react-router-dom
+
+5. Start the frontend:
 *  npm run dev
 
 If successful, you’ll see:

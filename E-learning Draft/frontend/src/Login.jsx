@@ -4,8 +4,8 @@ function Login() {
   return (
     <div className="login-container">
       <h2>Sign In</h2>
-      <input type="text" placeholder="Username"/>
-      <input type="password" placeholder="Password" />
+      <input className="input" type="text" placeholder="Username" />
+      <input className="input" type="password" placeholder="Password" />
       <a href="#" className="forgot-password">Forgot password?</a>
       <button className="login-btn">Play now</button>
       <p>Don't have an account?</p>
